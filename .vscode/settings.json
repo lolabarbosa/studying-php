@@ -18,11 +18,9 @@
     },
 
     //PHP
-    "php.validate.executablePath": "C:\\dev\\php.exe",
+    "php.validate.executablePath": "C:\\dev\\php\\php.exe",
     "php.suggest.basic": false,
     "phpSniffer.autoDetect": true,
     "phpSniffer.standard": "PSR12",
-    "[php]": {
-        "editor.defaultFormatter": "wongjn.php-sniffer"
-    }
+    
 }
