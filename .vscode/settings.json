@@ -1,0 +1,28 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+
+    "editor.formatOnSave": true,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.hg/store/**": true,
+        "**/vendor/*/**": true
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/factorypath": true,
+    },
+
+    //PHP
+    "php.validate.executablePath": "C:\\dev\\php.exe",
+    "php.suggest.basic": false,
+    "phpSniffer.autoDetect": true,
+    "phpSniffer.standard": "PSR12",
+    "[php]": {
+        "editor.defaultFormatter": "wongjn.php-sniffer"
+    }
+}
