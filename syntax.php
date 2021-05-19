@@ -30,17 +30,44 @@
     echo lola;
 
     //math
-    $itemA = 10;
+    $itemA = 30;
     $itemB = 20;
-    $itemC = $itemA+$itemB;
-    $itemD = $itemA-$itemB;
-    $itemE = $itemA*$itemB;
-    $itemF = $itemA/$itemB;
+    $itemC = $itemA+$itemB; // +=
+    $itemD = $itemA-$itemB; // -=
+    $itemE = $itemA*$itemB; // *=
+    $itemF = $itemA/$itemB; // /=
+    $itemG = $itemA%$itemB; // %=
 
     echo $itemC . PHP_EOL;
     echo $itemD . PHP_EOL;
     echo $itemE . PHP_EOL;
     echo $itemF . PHP_EOL;
+    echo $itemG . PHP_EOL;
+
+    //COMPARAÇÕES
+
+    var_dump(value: 1 == 1); //igualdade
+    var_dump(value: '1' == 1); //da true, pois transforam em inteiro e verifica
+    var_dump(value: 1 == 2);
+    $password = 'secret';
+    var_dump(value: $password == 'secret');
+
+    var_dump(value: 1 != 1); //diferença
+    var_dump(value: 1 != 2);
+    $password = 'secret';
+    var_dump(value: $password != 'secret');
+
+    var_dump(value: 1 === 1); //idêntico
+    var_dump(value: '1' === 1); //da falso, pois verifica o tipo do dado
+
+    var_dump(value: 1 !== 1); //não idêntico
+    var_dump(value: '1' !== 1);
+
+    $number = 6;
+    var_dump(value: $numver > 7); //maior
+    var_dump(value: $numver >= 6); //maior igual
+    var_dump(value: $numver < 7); //menor
+    var_dump(value: $numver <= 7); //menor igual
 
 
 ?>
